@@ -1,0 +1,22 @@
+.background{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+  .svg-element {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    margin: 0;
+    z-index: 1;
+    height: 100%;
+    position: absolute;
+  }
+  .text-bg{
+    height: 100%;
+    z-index: 0;
+    margin-left: auto;
+    opacity: 1;
+  }
+
+}

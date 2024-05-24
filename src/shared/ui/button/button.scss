@@ -1,0 +1,14 @@
+@import '../../../app/styles/colors';
+button{
+  max-width: 347px;
+  min-height: 95px;
+  background-color: rgba(63,63,63,0.6);
+  border-radius: 23px;
+  border: none;
+  outline: none;
+  padding: 33px 38px;
+  box-shadow: 0 4px 4px 0 #00000030;
+  font-size: 24px;
+  font-weight: 600;
+  color: $bright;
+}
