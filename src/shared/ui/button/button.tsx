@@ -19,14 +19,14 @@ export const Button: FC<IButton> = (props) =>{
         children,
         Icon,
         // disabled = false,
-        // className,
+        className,
         onClick,
     } = props;
     return (
         <button
             type='button'
             onClick={onClick}
-            className="">
+            className={`${className}`}>
             {Icon && <Icon/>}
             {children}
         </button>
