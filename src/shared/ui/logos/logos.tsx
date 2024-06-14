@@ -2,17 +2,17 @@ import { FC } from 'react'
 import './logos.scss'
 
 interface Logos {
-    /** Button text. */
+    /** Amount of logos in layout - 4 logos max (can be easily made for bigger amount) */
     readonly amount: number
+    /** Names of the companies which logos is needed*/
+    /** Rn available: google, vk, yandex*/
     readonly logo1: string
     readonly logo2: string
     readonly logo3: string
     readonly logo4?: string
-    /** Icon before text. */
-    //readonly Icon?: React.FunctionComponent<React.SVGProps<SVGSVGElement>>
-    /** Additional styles. */
+    /** Additional styles if needed */
     readonly castomClassName?: string
-    /** The function is executed when the button is pressed. */
+    /** The function is executed when the logo is pressed */
     readonly onClick?: () => void
 }
 
@@ -43,7 +43,7 @@ export const Logos: FC<Logos> = (props) => {
             }
             return logos
         } else {
-            throw new Error('Невалидное первого значения - amount')
+            throw new Error('Невалидное первое значение - amount')
         }
     }
     return (
