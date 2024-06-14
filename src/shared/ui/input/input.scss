@@ -1,0 +1,15 @@
+@import '../../../app/styles/colors';
+
+input{
+  min-width: 442px; //??
+  min-height: 48px; //??
+  background-color: $bg-widgets;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  padding-left: 18px;
+  margin-top: 49px; //??
+  font-size: 17px;
+  font-weight: 600;
+  color: $soft-white;
+}
