@@ -1,1 +1,1 @@
-export {Input} from './input.tsx'
+export {Input} from './ui/input.tsx'

@@ -37,7 +37,7 @@ export const Logos: FC<Logos> = (props) => {
                         <img src={`/public/logo${n}.svg`} alt={`${forAlt} logo`} className={`${castomClassName}`}></img>
                     </a>
                 )
-                n = n + 1
+                n ++
                 forAlt = 'logo' + n
                 amount --
             }
