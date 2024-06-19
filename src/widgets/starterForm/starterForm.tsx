@@ -1,10 +1,12 @@
 import { FC } from 'react'
-import { FormHeader } from 'shared/ui/formHeader'
-import { Input } from 'shared/ui/input'
-import { Logos } from 'shared/ui/logos'
-import { Button } from 'shared/ui/button'
+import {FormHeader} from "../../../shared/ui/formHeader";
+import {Input} from "../../../shared/ui/input";
+import {Logos} from "../../../shared/ui/logos";
+import {Button} from "../../../shared/ui/button";
 
 import './starterForm.scss'
+
+
 
 
 interface StarterForm {
@@ -64,3 +66,7 @@ export const StarterForm: FC<StarterForm> = (props) => {
         </div>
     )
 }
+//input
+//formHeader
+//logos
+//starterForm fix

@@ -1,13 +1,13 @@
 // import { useState } from 'react'
 import './App.css'
-import {WelcomePage} from "../pages/welcomePage";
+import {RegistrationPage} from "../pages/registrationPage";
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <WelcomePage/>
+      <RegistrationPage/>
     </>
   )
 }
