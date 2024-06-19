@@ -9,7 +9,7 @@
 /**/
 
 :root {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat" , sans-serif !important;
   line-height: 1.5;
   font-weight: 400;
   margin: 0;

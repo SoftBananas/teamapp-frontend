@@ -1,4 +1,4 @@
-@import '../../../app/styles/colors';
+@import '../../../../app/styles/colors';
 
 div{
     display: flex;
@@ -7,9 +7,10 @@ div{
     justify-content: center;
 }
 
-svg{
+img{
     width: 40px;
     height: 40px;
     color: $soft-white;
+    border: none;
     //add shadow
 }

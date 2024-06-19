@@ -1,0 +1,66 @@
+@import '../../../app/styles/colors';
+
+form {
+    display: grid;
+    justify-items: center;
+
+
+    margin-top: 140px;
+    margin-right: 92px;
+
+    .header {
+        margin-bottom: 80px;
+    }
+
+    .formInput {
+        margin-bottom: 25px;
+    }
+
+    .formButton {
+        margin-top: 22px;
+        margin-bottom: 72px;
+
+        width: 250px;
+        min-height: 60px !important;
+        padding: 0 !important;
+
+        font-size: 20px;
+        font-family: "Montserrat";
+
+        //shadows//
+    }
+
+    p {
+        font-family: Montserrat;
+        font-weight: 600;
+    }
+
+    #first {
+        font-size: 20px;
+        
+    }
+
+    #second, #second strong {
+        font-size: 24px;
+    }
+
+    #second strong{
+        font-weight: 800;
+        
+    }
+
+    div {
+        img {
+            padding-top: 22px;
+            padding-bottom: 35px;
+        }
+    }
+
+
+
+
+
+
+
+
+}
