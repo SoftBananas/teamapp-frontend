@@ -3,13 +3,11 @@
 form {
     display: grid;
     justify-items: center;
-
-
-    margin-top: 140px;
-    margin-right: 92px;
+    padding-top: 44px;
+    padding-left: 50px;
 
     .header {
-        margin-bottom: 80px;
+        margin-bottom: 79px;
     }
 
     .formInput {
@@ -27,7 +25,7 @@ form {
         font-size: 20px;
         font-family: "Montserrat";
 
-        //shadows//
+        background-color: $bg-widgets;
     }
 
     p {
@@ -53,14 +51,7 @@ form {
         img {
             padding-top: 22px;
             padding-bottom: 35px;
+            //shadows//
         }
     }
-
-
-
-
-
-
-
-
 }

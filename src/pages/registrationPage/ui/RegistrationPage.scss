@@ -1,0 +1,41 @@
+#background {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+
+    .svg-element {
+        margin: 0;
+        z-index: 1;
+        height: 100%;
+        position: absolute;
+    }
+
+    #Circle1 {
+        left: -85px;
+        top: -160px;
+    }
+    #Circle2 {
+        left: 180px;
+        bottom: -300px;
+        
+    }
+    #Circle3 {
+        left: -320px;
+        bottom: -350px;
+        
+    }
+
+    #text-bg {
+        height: 100%;
+        margin-left: auto;
+        padding-right: 1%;
+    }
+}
+
+form {
+    margin-right: auto;
+    margin-top: 5%;
+    margin-left: 10.2%;
+}

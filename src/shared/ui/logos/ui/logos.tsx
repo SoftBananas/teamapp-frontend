@@ -51,7 +51,7 @@ export const Logos: FC<Logos> = (props) => {
                 }
                 logos.push(
                     <a key={n}>
-                        <img src={`/${logo}Logo.svg`} alt={`${logo} logo`} className={`${className}`}></img>
+                        <img src={`/${logo}Logo.svg`} alt={`${logo} logo`} className={`${className} shadow`}></img>
                     </a>
                 )
                 n ++

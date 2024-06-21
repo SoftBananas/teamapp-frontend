@@ -12,5 +12,10 @@ img{
     height: 40px;
     color: $soft-white;
     border: none;
-    //add shadow
+
 }
+
+.shadow {
+    -webkit-filter: drop-shadow( 0px 3px 4px rgba(0, 0, 0, .7));
+    filter: drop-shadow( 0px 3px 4px rgba(0, 0, 0, .7));
+  }

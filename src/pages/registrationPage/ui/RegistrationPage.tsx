@@ -1,17 +1,21 @@
 import './RegistrationPage.scss'
-import { StarterForm } from "../../../widgets/starterForm";
+import SVG21 from './images/starterPageStaticCircle1.svg?react'
+import SVG22 from './images/starterPageStaticCircle2.svg?react'
+import SVG23 from './images/starterPageStaticCircle3.svg?react'
+import TextBG from './images/textBG.svg?react'
+import { StarterForm } from "../../../widgets/starterForm"
 
 
 export const RegistrationPage = () => {
     return (
         <>
-            <div className='background'>
-                <img src="src\shared\assets\images\staticCircle1.svg" />
-                <img src="src\shared\assets\images\staticCircle2.svg"/>
-                <img src="src\shared\assets\images\staticCircle3.svg"/>
-                <img src="src\shared\assets\images\textBG.svg"/>
+            <div id='background'>
+                <SVG21 id="Circle1" className="svg-element" />
+                <SVG22 id="Circle2" className="svg-element" />
+                <SVG23 id="Circle3" className="svg-element" />
+                <TextBG id="text-bg"/>
             </div>
-            <StarterForm headerText='Регистрация' amount={3} logo1='vk' logo2='yandex' logo3='google' />
+            <StarterForm className='regiForm'  headerText='Регистрация' amount={3} logo1='vk' logo2='yandex' logo3='google' />
         </>
 
     )
