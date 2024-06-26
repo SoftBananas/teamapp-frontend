@@ -1,8 +1,13 @@
 @import '../../../../app/styles/colors';
 
-input {
-  min-width: 420px;
+input.inputStyle {
+  max-width: 420px;
   min-height: 45px; 
+
+  width: 75%;
+
+
+
   background-color: $bg-widgets;
   border-radius: 16px;
   border: none;
@@ -18,11 +23,11 @@ input {
   line-height: 20px;
 }
 
-label {
+label#labelForInput {
   display: grid;
-  justify-content: center;
+  width: 100%;
+  justify-items: center;
 
-  font-family: "Montserrat", sans-serif;  /*FIX FONT ERROR*/
   font-size: 20px;
   font-weight: 600;
   line-height: 24.38px;

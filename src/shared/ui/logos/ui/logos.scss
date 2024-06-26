@@ -1,13 +1,13 @@
 @import '../../../../app/styles/colors';
 
-div{
+div#forLogos{
     display: flex;
     gap: 30px;
     min-width: 349px;
     justify-content: center;
 }
 
-img{
+img.logosSVG{
     width: 40px;
     height: 40px;
     color: $soft-white;

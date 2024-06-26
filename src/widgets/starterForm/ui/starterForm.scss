@@ -3,8 +3,7 @@
 form {
     display: grid;
     justify-items: center;
-    padding-top: 44px;
-    padding-left: 50px;
+    width: 30%;
 
     .header {
         margin-bottom: 79px;
@@ -28,14 +27,13 @@ form {
         background-color: $bg-widgets;
     }
 
-    p {
-        font-family: Montserrat;
+    .inForm {
+        // font-family: Montserrat;
         font-weight: 600;
     }
 
     #first {
-        font-size: 20px;
-        
+        font-size: 20px; 
     }
 
     #second, #second strong {
@@ -47,11 +45,10 @@ form {
         
     }
 
-    div {
+    div#forLogos {
         img {
             padding-top: 22px;
             padding-bottom: 35px;
-            //shadows//
         }
     }
 }

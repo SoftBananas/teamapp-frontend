@@ -51,7 +51,7 @@ export const Logos: FC<Logos> = (props) => {
                 }
                 logos.push(
                     <a key={n}>
-                        <img src={`/${logo}Logo.svg`} alt={`${logo} logo`} className={`${className} shadow`}></img>
+                        <img src={`/${logo}Logo.svg`} alt={`${logo} logo`} className={`${className} shadow logosSVG`}></img>
                     </a>
                 )
                 n ++
@@ -62,7 +62,7 @@ export const Logos: FC<Logos> = (props) => {
         }
     }
     return (
-        <div>
+        <div id="forLogos">
             {amountDependence()}
         </div>
     )

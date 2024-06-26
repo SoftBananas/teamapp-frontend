@@ -13,10 +13,11 @@ export const RegistrationPage = () => {
                 <SVG21 id="Circle1" className="svg-element" />
                 <SVG22 id="Circle2" className="svg-element" />
                 <SVG23 id="Circle3" className="svg-element" />
-                <TextBG id="text-bg"/>
+                <TextBG id="text-bg" className="svg-element" />
+                <div id="main">
+                    <StarterForm headerText='Регистрация' amount={3} logo1='vk' logo2='yandex' logo3='google' />
+                </div>
             </div>
-            <StarterForm className='regiForm'  headerText='Регистрация' amount={3} logo1='vk' logo2='yandex' logo3='google' />
         </>
-
     )
 }

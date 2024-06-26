@@ -1,41 +1,56 @@
 #background {
-    display: flex;
     width: 100%;
     height: 100vh;
-    position: absolute;
-    z-index: -1;
+    position: relative;
+    top: 0;
+    z-index: -2;
+    overflow: hidden;
 
     .svg-element {
-        margin: 0;
-        z-index: 1;
-        height: 100%;
+        // margin: 0;
         position: absolute;
+        z-index: 0;
     }
 
     #Circle1 {
-        left: -85px;
-        top: -160px;
+        top: -9%;
+        left: -4%;
     }
+
     #Circle2 {
-        left: 180px;
-        bottom: -300px;
-        
+        bottom: -23%;
+        left: 8%;
     }
+
     #Circle3 {
-        left: -320px;
-        bottom: -350px;
-        
+        bottom: -25%;
+        left: -18%;
     }
 
     #text-bg {
         height: 100%;
-        margin-left: auto;
-        padding-right: 1%;
+        z-index: -1;
+        right: 1%;
+        //margin-right: -10px;
     }
-}
 
-form {
-    margin-right: auto;
-    margin-top: 5%;
-    margin-left: 10.2%;
+    #main {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+
+        form {
+            // justify-self: flex-start;
+            //min-width: ;
+            min-width: 41%;
+            height: auto;
+            
+            margin-top: 7.3%;
+            margin-left: 3.7%;
+
+        }
+    }
 }

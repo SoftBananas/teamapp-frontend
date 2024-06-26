@@ -71,9 +71,9 @@ export const StarterForm: FC<StarterForm> = (props) => {
             <FormHeader children={headerText} className="header" />
             {headerTextDependence()}
             <Button children="Отправить" className='formButton' />
-            <p id="first">{a} с помощью</p>
+            <p className="inForm" id="first">{a} с помощью</p>
             <Logos amount={amount} logo1={logo1} logo2={logo2} logo3={logo3} logo4={logo4} className='logos' />
-            <p id="second">{b}<strong>{c}</strong></p>
+            <p className="inForm" id="second">{b}<strong>{c}</strong></p>
         </form>
     )
 }

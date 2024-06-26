@@ -12,7 +12,7 @@ export const FormHeader: FC<FormHeader> = (props) =>{
         className,
     } = props;
     return (
-        <h4 className={`${className}`}>
+        <h4 className={`${className} formHeader`}>
             {children}
         </h4>
     )

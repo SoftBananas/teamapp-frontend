@@ -16,11 +16,11 @@ export const Input: FC<Input> = (props) => {
         className,
     } = props;
     return (
-        <label>
+        <label id="labelForInput">
             {inputHeader}
             <input
                 type='input'
-                className={`${className}`}
+                className={`${className} inputStyle`}
                 placeholder={`${placeholder}`}>
             </input>
         </label>
