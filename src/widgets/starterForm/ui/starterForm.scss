@@ -27,6 +27,7 @@ form {
         background-color: $bg-widgets;
     }
 
+
     .inForm {
         // font-family: Montserrat;
         font-weight: 600;
@@ -36,6 +37,14 @@ form {
         font-size: 20px; 
     }
 
+    .authCustom{
+        font-size: 24px !important;
+    }
+
+    .secondAuthCustom{
+        padding-left: 1.5%;
+    }
+
     #second, #second strong {
         font-size: 24px;
     }
@@ -43,6 +52,19 @@ form {
     #second strong{
         font-weight: 800;
         
+    }
+
+    div#formForgot{
+        color: $soft-white;
+        font-size: 20px;
+        font-weight: 600;
+        opacity: 0.7;
+
+        margin-top: -1%;
+        margin-bottom: 4.14%;
+    }
+    div#formForgot:hover{
+        opacity: 1;
     }
 
     div#forLogos {

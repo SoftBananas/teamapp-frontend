@@ -34,6 +34,8 @@ export const StarterForm: FC<StarterForm> = (props) => {
     let a;
     let b;
     let c;
+    let d;
+    let e;
 
     function headerTextDependence() {
         let inputs = []
@@ -48,19 +50,24 @@ export const StarterForm: FC<StarterForm> = (props) => {
             a = 'Зарегистрироваться'
             b = 'Уже зарегистрированы?'
             c = ' Войти'
+            d = ''
+            e = ''
             return inputs
 
         } else if (headerText === 'Авторизация') {
             inputs.push(
                 <>  
                     <Input inputHeader='Электронная почта' placeholder='Введите вашу почту' className='formInput' />
-                    <Input inputHeader='Пароль' placeholder='Введите пароль' className='formInput' />      
+                    <Input inputHeader='Пароль' placeholder='Введите пароль' className='formInput' />
+                    <div id='formForgot'>Забыли пароль?</div>      
                 </>
             )
-            return inputs
             a = 'Войти'
-            b = 'Еще не зарегистрирован?'
+            b = 'Еще не зарегистрированы?'
             c = ' Зарегистрироваться'
+            d = 'authCustom'
+            e = 'secondAuthCustom'
+            return inputs
         } else {
             throw new Error('Невалидное название заголовка формы (Регистрация/Авторизация)')
         }
@@ -71,9 +78,9 @@ export const StarterForm: FC<StarterForm> = (props) => {
             <FormHeader children={headerText} className="header" />
             {headerTextDependence()}
             <Button children="Отправить" className='formButton' />
-            <p className="inForm" id="first">{a} с помощью</p>
+            <p className={`inForm ${d}`} id='first'>{a} с помощью</p>
             <Logos amount={amount} logo1={logo1} logo2={logo2} logo3={logo3} logo4={logo4} className='logos' />
-            <p className="inForm" id="second">{b}<strong>{c}</strong></p>
+            <p className={`inForm ${e}`} id="second">{b}<strong>{c}</strong></p>
         </form>
     )
 }

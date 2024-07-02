@@ -1,0 +1,61 @@
+#background {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    z-index: -5;
+    overflow: hidden;
+
+    .svg-element {
+        // margin: 0;
+        position: absolute;
+    }
+
+    #Circle21 {
+        top: -7%;
+        right: -15%;
+        z-index: -4;
+    }
+
+    #Circle22 {
+        bottom: -35%;
+        right: -3%;
+    }
+
+    #Circle23 {
+        top: -5%;
+        right: 14%;
+        z-index: -2;
+        
+    }
+
+    #text-bg {
+        height: 100%;
+        z-index: -1;
+        left: 1%;
+        //margin-right: -10px;
+        //width: 728px;
+        //overflow: hidden;
+    }
+
+    #mainAuth {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+
+        form {
+            position: absolute;
+            right: 0%;
+            //min-width: ;
+            min-width: 41%;
+            height: auto;
+            
+            margin-top: 9%;
+            margin-right: 3.8%;
+
+        }
+    }
+}

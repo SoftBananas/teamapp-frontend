@@ -1,0 +1,1 @@
+export { AuthenticPage } from './ui/authenticPage.tsx'
