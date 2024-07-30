@@ -1,12 +1,7 @@
-@font-face {
-  font-family: 'Monserat';
-  src: url('./shared/assets/fonts/Montserrat-VariableFont_wght.ttf') format('ttf');
-  font-weight: 100 900;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  font-family: Monserat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
