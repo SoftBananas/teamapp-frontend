@@ -3,7 +3,7 @@ import './bgWelcomePage.scss'
 import SVG1 from '../../assets/images/svgAnimPhase1.svg?react'
 import SVG2 from '../../assets/images/svgAnimPhase2.svg?react'
 import SVG3 from '../../assets/images/svgAnimPhase3.svg?react'
-import TextBG from '../../assets/images/textBG.svg?react'
+import TextBG from '../../assets/images/textBGRight.svg?react'
 import {useEffect, useState} from "react";
 
 export const BgWelcomePage = () => {

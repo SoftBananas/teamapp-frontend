@@ -1,0 +1,149 @@
+.backgroundStarter {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    z-index: -1;
+
+    .txtBg {
+        height: 98vh;
+        width: auto;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 1vh;
+        position: absolute;
+        animation: TxtMove 1s ease-in paused;
+    }
+
+    #txtLeft {
+        left: 0%;
+        opacity: 1;
+        animation: txtLeft 1s ease-in paused;
+    }
+
+    #txtRight {
+        right: 0%;
+        opacity: 0;
+        animation: txtRight 1s ease-in paused;
+    }
+
+    .crcl {
+        filter: blur(95px);
+        position: absolute;
+    }
+
+    #crcl1 {
+        right: 7vw;
+        bottom: -15vh;
+        animation: CircleMove1 1s ease-in paused;
+        animation-fill-mode: both;
+        height: 55.7409vh;
+    }
+
+    #crcl2 {
+        top: 15vh;
+        right: 25vw;
+        animation: CircleMove2 1s ease-in paused;
+        animation-fill-mode: both;
+        height: 46.7vh;
+    }
+
+    #crcl3 {
+        top: 1vh;
+        right: -4vw;
+        animation: CircleMove3 1s ease-in paused;
+        animation-fill-mode: both;
+        height: 62vh;
+    }
+
+}
+
+@keyframes CircleMove1 {
+    from {
+        right: 7vw;
+        bottom: -15vh;
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        left: 7vw;
+        top: -15vh;
+        right: auto;
+        bottom: auto;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes CircleMove2 {
+    from {
+        top: 15vh;
+        right: 25vw;
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        bottom: 15vh;
+        left: 25vw;
+        right: auto;
+        bottom: auto;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes CircleMove3 {
+    from {
+        top: 1vh;
+        right: -4vw;
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        bottom: 1vh;
+        left: -4vw;
+        right: auto;
+        top: auto;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes txtLeft {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes txtRight {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

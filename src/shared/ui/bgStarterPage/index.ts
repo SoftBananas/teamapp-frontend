@@ -1,0 +1,1 @@
+export { BgStarterPage } from './bgStarterPage.tsx'
